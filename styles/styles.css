@@ -96,3 +96,7 @@ p {
 .art:nth-child(even) .words {
    text-align: right;
 }
+
+.img {
+    max-width: 100%;
+}
