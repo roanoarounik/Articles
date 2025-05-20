@@ -50,8 +50,13 @@ a {
 }
 
 .heroBanner {
-    padding: 40px 0;
-    background: steelblue;
+    display: none;
+    padding: 170px 0;
+    /* background: steelblue; */
+    background: url(/assets/images/Long-Bow.jpg);
+    background-position: 50% 41%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 aside {
@@ -65,9 +70,9 @@ article {
 }
 
 .box {
-    width: 85px;
-    height: 125px;
-    background: rgba(184 250 255);
+    width: 100px;
+    height: auto;
+    border-bottom: 0;
 }
 
 p {
@@ -81,22 +86,27 @@ p {
 }   
 
 .articlesContainer {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 
 .art {
+    display: flex;
     padding: 0 8px;
+    justify-content: center;
 }
 
 .art:nth-child(even) {
-    justify-content: flex-end;
     flex-direction: row-reverse;
 }
 .art:nth-child(even) .words {
    text-align: right;
 }
 
-.img {
+img {
     max-width: 100%;
+}
+
+.hmbird {
+    max-height: 755px;
 }
